@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.head-logo {
+    width: 100%;
+    height: 5rem;
+    padding: 1rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.head-logo img {
+    width: 65px;
+}
+
+.section-element-title {
+    width: 100%;
+    height: 38rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.element-title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.element-title h2 {
+    width: 70%;
+    font-size: x-large;
+    color: #7C00FF;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.element-subtitle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.element-subtitle h2 {
+    width: 70%;
+    font-size: small;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.element-button {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.element-button a{
+    width: 80%;
+    text-decoration: none;
+    background-color: #7C00FF;
+    padding: .5rem;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    border-radius: .25rem;
+    margin: 1.5rem;
+}
+
+.cards-check {
+    background-color: #000009;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #7C00FF;
+    margin: 1.5rem;
+    width: 80%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card i{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.card span {
+    text-align: center;
+    font-weight: bold;
+}
+
+.banner-element-cards {
+    background-color: #7C00FF;
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-element-cards h2 {
+    width: 80%;
+    text-align: center;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1;
+    font-size: 2rem;
+}
+
+.element-cards {
+    width: 80%;
+}
+
+.element-cards img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.card-elements {
+    width: 80%;
+    height: 22rem;
+    margin: 5rem;
+}
+
+.card-elements img {
+    width: 100%;
+}
+
+.element-title-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.element-title-card h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-element-bonus {
+    width: 100%;
+    background-color: #000009;
+}
+
+.element-bonus {
+    width: 100%;
+}
+
+.element-bonus img {
+    width: 100%;
+}
+
+.banner-elements-promotion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+.element-questions {
+    width: 100%;
+    background-color: #7C00FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.title-questions {
+    width: 80%;
+}
+
+.title-questions h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.list-questions {
+    width: 80%;
+    margin-top: 1rem;
+}
+
+.list-questions li {
+    margin-top: 1rem;
+}
+
+.list-questions p {
+    font-size: 12px;
+}
+
+.element-free {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.element-free-image {
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.element-free-image img {
+    width: 100%;
+}
+
+.element-free-title {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.element-button-download {
+    display: flex;
+}
+
+.element-button-download a {
+    width: 100%;
+    background-color: #7C00FF;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: .5rem;
+    border-radius: .25rem;
+    font-size: medium;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
