@@ -129,12 +129,11 @@
 .banner-element-cards {
     background-color: #7C00FF;
     width: 100%;
-    height: 35rem;
+    height: 38rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;
 }
 
 .banner-element-cards h2 {
@@ -302,9 +301,10 @@
 }
 
 .footer-title {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     padding: 1rem;
 }
@@ -319,7 +319,7 @@
 }
 
 .footer-button {
-    width: 40%;
+    width: 80%;
     height: 3.5rem;
     background-color: #7C00FF;
     display: flex;
@@ -334,4 +334,98 @@
     color: white;
     font-weight: bold;
     font-size: 18px;
+}
+
+.footer-subtitle {
+    color: #c6c6c6;
+    font-size: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .section-element-title {
+        width: 100%;
+        height: auto;
+    }
+
+    .element-title h2 {
+        width: 90%;
+        font-size: 36px;
+    }
+
+    .element-subtitle h2 {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .element-button {
+        width: 80%;
+    }
+
+    .element-button a {
+        font-size: 1.5rem;
+    }
+
+    .cards-check {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 2rem;
+    }
+
+    .banner-element-cards {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .element-cards {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner-element-cards img {
+        margin-bottom: 3rem;
+        width: 70%;
+    }
+
+    .cards-elements {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-elements{
+        width: 70%;
+        height: auto;
+    }
+
+    .cards-elements img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .element-title-card {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .element-title-card h2 {
+        width: 90%;
+        font-size: 20px;
+    }
+    
 }
